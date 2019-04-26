@@ -1,0 +1,42 @@
+input {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  .simple-keyboard {
+    width: auto;
+    margin: auto;
+  }
+  
+  /*
+    Theme: hg-theme-ios
+  */
+  .simple-keyboard.hg-theme-ios {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .simple-keyboard.hg-theme-ios .hg-button {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #464646;
+    color: white;
+  }
+  
+  .simple-keyboard.hg-theme-ios .hg-button:active {
+    background: #1c4995;
+    color: white;
+  }
+  
+  #root .simple-keyboard.hg-theme-ios + .simple-keyboard-preview {
+    background: #1c4995;
+  }
+  
